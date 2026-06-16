@@ -1,0 +1,30 @@
+[
+  {
+    "account_id": "ACC-TEST-1",
+    "timestamp": "2026-06-15T12:00:20.401514",
+    "baseline_clv": 140400.0,
+    "final_predicted_clv": 56159.99999999999,
+    "shift_percentage": 0.6,
+    "state_payload": {
+      "account_id": "ACC-TEST-1",
+      "raw_unstructured_text": "CRITICAL CRM LOG: Client John Doe at john.doe@acme.com expressed frustration. Technical champion resigned.",
+      "quantitative_features": {
+        "tenure_months": 24,
+        "monthly_fee": 5000,
+        "user_ratio": 0.8,
+        "feature_utilization": 0.5,
+        "support_tickets": 2
+      },
+      "masked_text": "[REDACTED_ORG_0]: Client [REDACTED_CLIENT_NAME_5] at [REDACTED_EMAIL] expressed frustration. Technical champion resigned.",
+      "retrieved_contexts": [],
+      "baseline_clv": 140400.0,
+      "statistical_variance": [
+        126360.0,
+        154440.0
+      ],
+      "qualitative_risk_score": 0.8,
+      "reasoning_summary": "High frustration expressed by client, coupled with the loss of a key technical champion, suggests a high probability of churn.",
+      "tokens_used": 86
+    }
+  }
+]

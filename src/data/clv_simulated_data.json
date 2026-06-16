@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ACC-8491",
+    "name": "Apex Financial Corp",
+    "vertical": "Finance",
+    "metrics": { "tenure_months": 24, "monthly_fee": 4800, "user_ratio": 0.85, "feature_utilization": 0.78, "support_tickets": 2 },
+    "unstructured_source": "STANDARD CRM LOG: Account is highly stable. Users successfully onboarded to advanced analytics module. Support tickets remain routine operation queries.",
+    "agent_outputs": { "baseline_clv": 187776, "qualitative_risk_score": 0.10, "final_predicted_clv": 215942, "dynamic_cac_limit": 32391, "is_overridden": false, "reasoning_summary": "Orchestrator validated baseline accuracy. Utilization thresholds normal; account growth path is clear." }
+  },
+  {
+    "id": "ACC-2041",
+    "name": "Vanguard Logistics",
+    "vertical": "Logistics",
+    "metrics": { "tenure_months": 14, "monthly_fee": 7500, "user_ratio": 0.42, "feature_utilization": 0.31, "support_tickets": 9 },
+    "unstructured_source": "CRITICAL CRM LOG: Client expressed sharp frustration during checkpoint. Primary technical champion resigned. Integration pipeline stalled due to core infrastructure latency. High churn risk flagged by AM.",
+    "agent_outputs": { "baseline_clv": 76650, "qualitative_risk_score": 0.75, "final_predicted_clv": 49822, "dynamic_cac_limit": 7473, "is_overridden": true, "reasoning_summary": "Orchestrator overrode baseline calculations due to Loss of Technical Champion and system integration stalls. Risk-adjusted valuation compressed to stabilize ledger forecasting variance." }
+  }
+]

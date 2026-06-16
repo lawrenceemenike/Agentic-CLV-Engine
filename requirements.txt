@@ -1,0 +1,15 @@
+langchain
+langchain-ollama
+langchain-huggingface
+langgraph
+chromadb
+xgboost
+mlflow
+spacy
+shap
+ragas
+pandas
+numpy
+scikit-learn
+pydantic
+sentence-transformers
